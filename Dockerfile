@@ -12,3 +12,5 @@ RUN apt install -y git python openjdk-11-jdk zip
 ADD entrypoint.sh /
 
 ENTRYPOINT /entrypoint.sh
+
+CMD ["/bin/bash"]
